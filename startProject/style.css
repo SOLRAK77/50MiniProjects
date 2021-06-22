@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 85vh;
+  font-family: "Muli", sans-serif;
+  justify-content: center;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}

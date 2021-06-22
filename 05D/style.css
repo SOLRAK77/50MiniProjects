@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  font-family: "Ubuntu", sans-serif;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bg {
+  background: url("./img/christopher-padilla-KL98S4b33rI-unsplash.jpg")
+    no-repeat center center/cover;
+  filter: blur(70px);
+  height: calc(100vh + 60px);
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  width: calc(100vw + 60px);
+  z-index: -1;
+}
+
+.loading {
+  height: 30px;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+footer {
+  position: absolute;
+  margin-bottom: 20px;
+  justify-content: center;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 20px;
+}
+
+.foot {
+  text-align: center;
+}
